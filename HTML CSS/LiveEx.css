@@ -1,0 +1,197 @@
+/* Heading */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400&display=swap");
+* {
+  box-sizing: border-box;
+  color: white;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+html h2 {
+  font-family: "Open Sans";
+}
+header {
+  background-color: rgb(25, 25, 25);
+  padding: 0 20px 0 0;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  font-family: sans-serif !important;
+}
+h1 {
+  margin: 0 0 0 0;
+}
+
+span.red-in-word {
+  color: crimson;
+}
+
+p {
+  font-family: "Open Sans Semibold";
+}
+/* Body */
+body {
+  background-color: rgb(25, 25, 25);
+  background-size: 1000px 1000px;
+  margin: 0;
+}
+
+main {
+  width: 50%;
+  height: 44rem;
+  display: inline-block;
+  font-family: sans-serif !important;
+}
+
+.container {
+  text-align: center;
+  font-size: 30px;
+  margin: 200px 0 0 -100px;
+}
+
+span.main-small-text {
+  font-size: 20px;
+}
+/* Navigation */
+nav.navigation-container {
+  float: right;
+  font-size: 22px;
+  display: block;
+  width: 50%;
+  height: 44rem;
+  margin: 1px 0 0 0;
+}
+
+nav.navigation-container p {
+  font-size: smaller;
+  font-family: "Open Sans Light";
+}
+
+nav.navigation-container img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 10px 0 0 0;
+}
+
+nav.navigation-container h2 {
+  padding: 10px 0 0 55px;
+  margin: 0 0 0 0;
+  font-family: "Open Sans SemiBold";
+}
+/* Profile section */
+.profile-section {
+  cursor: pointer;
+  padding: 0 0 100px 0;
+  background-color: rgb(29, 29, 29);
+  margin: 0 0 0 0;
+}
+/* Portfolio */
+.portfolio-section {
+  padding: 0 0 100px 0;
+  background-color: rgb(41, 41, 41);
+}
+/* Contact */
+.contacts-section {
+  background-color: rgb(29, 29, 29);
+  padding: 0 0 145px 0;
+}
+.contacts-section a img {
+  width: 45px;
+  height: 45px;
+  margin: 15px 0 0 0;
+}
+/* About page */
+.profile-block {
+  height: 600px;
+  width: 100%;
+}
+.profile-block h2 {
+  display: inline-block;
+  opacity: 100%;
+  text-align: left;
+  font-family: "Open Sans";
+  margin: 0 0 0 0;
+  font-size: 27px;
+}
+
+video {
+  position: absolute;
+  z-index: -1;
+  object-fit: cover;
+  min-width: 100%;
+  width: 100%;
+  height: 600px;
+  object-position: left;
+  margin: 0 0 0 0px;
+  opacity: 15%;
+}
+
+.profile-block video::-webkit-media-controls {
+  display: none;
+}
+.profile-block h3 {
+  text-align: center;
+  font-family: "Open Sans";
+}
+
+#about-image {
+  height: 400px;
+  width: 400px;
+  border-radius: 2%;
+  float: left;
+}
+#about-me-paragraph {
+  width: 450px;
+  float: left;
+  line-height: 270%;
+  margin: 10px 0 0 50px;
+}
+
+/* Projects section */
+.portfolio-block {
+  height: 500px;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+}
+.portfolio-block h2 {
+  display: block;
+  margin: 0 0 30px 0;
+}
+.portfolio-block a img {
+  height: 200px;
+  width: 400px;
+  object-fit: contain;
+}
+
+#project-1 {
+  margin: 0 0 0 65px;
+}
+#project-2 {
+  margin: 0 0 0 65px;
+}
+#project-3 {
+  margin: 0 0 0 65px;
+}
+#project-4 {
+  margin: 20px 0 0 65px;
+}
+#project-5 {
+  margin: 20px 0 0 65px;
+}
+#project-6 {
+  margin: 20px 0 0 65px;
+}
+/* Contacts */
+footer {
+  height: 150px;
+  width: 100%;
+}
+
+footer img {
+  margin: 15px 15px 0 0;
+  height: 30px;
+  width: 30px;
+}
+footer h3 {
+  font-family: "Open Sans Light";
+}

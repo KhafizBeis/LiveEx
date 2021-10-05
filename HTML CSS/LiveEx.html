@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LiveEx</title>
+    <!-- Links -->
+    <link rel="stylesheet" href="LiveEx.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h1 class="header-logo"><span class="red-in-word">Live</span>Ex</h1>
+    </header>
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <h2>
+          <span class="hello-header">Hello!</span> <br />
+          <span class="red-in-word">Live</span>Ex&nbsp;Welcomes&nbsp;you
+          <br />
+          <span class="main-small-text">This is portfolio site</span>
+        </h2>
+      </div>
+    </main>
+    <!-- Navigation -->
+    <nav class="navigation-container">
+      <!-- Profile block -->
+      <div class="profile-section" onclick="location.href='#About'">
+        <a href="#About" class="profile-picture-link"
+          ><img id="user-picture" src="/images/user.png" alt="user-picture"
+        /></a>
+        <a href="#About" class="profile-block-link"
+          ><h2>PR<span class="red-in-word">OF</span>ILE</h2></a
+        >
+        <p>Some&nbsp;words&nbsp;about&nbsp;me</p>
+      </div>
+      <!-- Portfolio block -->
+      <div class="portfolio-section" onclick="location.href='#Projects'">
+        <a href="#Projects" class="portfolio-picture-link"
+          ><img
+            id="portfolio-picture"
+            src="/images/projects.png"
+            alt="portfolio-picture"
+        /></a>
+        <a href="#Projects" class="portfolio-block-link"
+          ><h2>POR<span class="red-in-word">TF</span>OLIO</h2></a
+        >
+        <p>My&nbsp;created&nbsp;projects</p>
+      </div>
+      <!-- Contact block -->
+      <div class="contacts-section" onclick="location.href='#Contacts'">
+        <a href="#Contacts" class="contacts-picture-link"
+          ><img
+            id="contacts-picture"
+            src="/images/contact.png"
+            alt="contacts-picture"
+        /></a>
+        <a href="#Contacts" class="contact-block-link"
+          ><h2>CO<span class="red-in-word">NT</span>ACT</h2></a
+        >
+        <p>Contact me</p>
+      </div>
+    </nav>
+    <!-- About section -->
+    <div class="profile-block">
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        poster="/images/video-preview.jpg"
+        id="video"
+      >
+        <source src="/images/background image about.mp4" />
+      </video>
+      <h2 id="About">PR<span class="red-in-word">OF</span>ILE</h2>
+      <h3>ABOUT ME</h3>
+      <img id="about-image" src="/images/Me 2.jpg" alt="picture of Khafiz" />
+      <p id="about-me-paragraph">
+        I&rsquo;m starting Front-end developer who was born in&nbsp;Kazakhstan
+        and still living there.I&rsquo;m always exited to&nbsp;start
+        my&nbsp;coding project everyday.
+        <br />
+        <br />
+        Love to&nbsp;gain new knowledge about anything.That keeps my&nbsp;love
+        to&nbsp;coding and moving forward. In&nbsp;future want to&nbsp;become
+        a&nbsp;professional who knows everything about front-end development.
+      </p>
+    </div>
+    <!-- Projects section -->
+    <div class="portfolio-block">
+      <h2 id="Projects">PR<span class="red-in-word">OJ</span>ECTS</h2>
+      <a href="#"
+        ><img
+          id="project-1"
+          src="/images/Project previews/Project-preview.jpg"
+          alt="Profile portfolio site preview"
+      /></a>
+      <a id="project-2" href="#"
+        ><img src="/images/Project previews/Project 2.jpg" alt="site preview"
+      /></a>
+      <a href="#"
+        ><img
+          id="project-3"
+          src="/images/Project previews/Project 3.jpg"
+          alt="site preview"
+      /></a>
+      <a href="#"
+        ><img
+          id="project-4"
+          src="/images/Project previews/Project 4.jpg"
+          alt="site preview"
+      /></a>
+      <a href="#"
+        ><img
+          id="project-5"
+          src="/images/Project previews/Project 5.jpg"
+          alt="site preview"
+      /></a>
+      <a href="#"
+        ><img
+          id="project-6"
+          src="/images/Project previews/Project 6.jpg"
+          alt="site preview"
+      /></a>
+    </div>
+    <footer class="contacts">
+      <h2 id="Contacts">CO<span class="red-in-word">NT</span>ACTS</h2>
+      <h3>Created by Khafiz Beisenbek</h3>
+      <a id="vk" href="https://vk.com/tvoi_offfnik"
+        ><img src="/images/Media icons/vk png.png" alt="vk-logo"
+      /></a>
+
+      <a id="instagram" href="https://www.instagram.com/iosifmanka/"
+        ><img src="/images/Media icons/Instagram png.png" alt="Instagram-logo"
+      /></a>
+
+      <a id="telegram" href="https://telegram.me/Lyrk345"
+        ><img src="/images/Media icons/telegram png.png" alt="telegram-logo"
+      /></a>
+
+      <a id="gmail" href="mailto:hafibeis@gmail.com"
+        ><img src="/images/Media icons/gmail png.png" alt="gmail-logo"
+      /></a>
+    </footer>
+  </body>
+</html>
